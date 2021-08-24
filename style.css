@@ -1,0 +1,62 @@
+
+
+body {
+    background-image: url(./img/face-mask-4964590_1280.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight:600; */
+}
+
+
+#container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 23%;
+    /* background-color: rgba(211, 211, 211, 0.432); */
+}
+
+#firstNameInpt {
+    background-color: rgba(235, 235, 235, 0.281);
+}
+
+#lastNameInpt {
+    background-color: rgba(235, 235, 235, 0.281);
+}
+
+#yearInpt {
+    background-color: rgba(235, 235, 235, 0.281);
+}
+
+#idInput {
+    background-color: rgba(235, 235, 235, 0.281);
+}
+
+#cityInpt {
+    background-color: rgba(235, 235, 235, 0.281);
+}
+
+#checkInpt {
+    background-color: rgba(235, 235, 235, 0.281);
+}
+
+#checkIdInpt {
+    background-color: rgba(235, 235, 235, 0.281);
+}
+
+
+@media  screen and (max-width: 425px) {
+    
+    #myTable {
+        width: 20%;
+        margin-left: 0%;
+        margin-right: 40vw;
+        
+    }
+    }
+    
